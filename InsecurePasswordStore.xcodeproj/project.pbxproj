@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D61BAF62B45E9C8004C88C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61BAF52B45E9C8004C88C9 /* AppDelegate.m */; };
+		0D61BAF92B45E9C8004C88C9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61BAF82B45E9C8004C88C9 /* SceneDelegate.m */; };
+		0D61BAFF2B45E9C8004C88C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D61BAFD2B45E9C8004C88C9 /* Main.storyboard */; };
+		0D61BB012B45E9CA004C88C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D61BB002B45E9CA004C88C9 /* Assets.xcassets */; };
+		0D61BB042B45E9CA004C88C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D61BB022B45E9CA004C88C9 /* LaunchScreen.storyboard */; };
+		0D61BB072B45E9CA004C88C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61BB062B45E9CA004C88C9 /* main.m */; };
+		0D61BB0E2B45EAA4004C88C9 /* logo68.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D61BB0D2B45EAA4004C88C9 /* logo68.png */; };
+		0D61BB112B45EB9A004C88C9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61BB102B45EB9A004C88C9 /* LoginViewController.m */; };
+		0D61BB142B45F419004C88C9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61BB122B45F419004C88C9 /* MainViewController.m */; };
+		0D61BB192B49CCEF004C88C9 /* Credential.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61BB152B49CCEF004C88C9 /* Credential.m */; };
+		0D61BB1A2B49CCEF004C88C9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D61BB172B49CCEF004C88C9 /* Model.xcdatamodeld */; };
+		0D61BB1C2B49D034004C88C9 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61BB1B2B49D034004C88C9 /* PasswordViewController.m */; };
+		0DC198AC2B530CF3005EA7BF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC198AA2B530CF3005EA7BF /* Utils.m */; };
+		0DC198AF2B567F53005EA7BF /* AdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC198AE2B567F53005EA7BF /* AdminViewController.m */; };
+		0DC198B42B59ABB1005EA7BF /* FridaGadget.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC198B12B59AB76005EA7BF /* FridaGadget.dylib */; };
+		0DC198B52B59AC50005EA7BF /* FridaGadget.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 0DC198B12B59AB76005EA7BF /* FridaGadget.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DC198B62B59AC50005EA7BF /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0DC198B52B59AC50005EA7BF /* FridaGadget.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D61BAF12B45E9C8004C88C9 /* InsecurePasswordStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsecurePasswordStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D61BAF42B45E9C8004C88C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D61BAF52B45E9C8004C88C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D61BAF72B45E9C8004C88C9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0D61BAF82B45E9C8004C88C9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0D61BAFE2B45E9C8004C88C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D61BB002B45E9CA004C88C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D61BB032B45E9CA004C88C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D61BB052B45E9CA004C88C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D61BB062B45E9CA004C88C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D61BB0D2B45EAA4004C88C9 /* logo68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo68.png; sourceTree = "<group>"; };
+		0D61BB0F2B45EB9A004C88C9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0D61BB102B45EB9A004C88C9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0D61BB122B45F419004C88C9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0D61BB132B45F419004C88C9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0D61BB152B49CCEF004C88C9 /* Credential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Credential.m; sourceTree = "<group>"; };
+		0D61BB162B49CCEF004C88C9 /* Credential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credential.h; sourceTree = "<group>"; };
+		0D61BB182B49CCEF004C88C9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		0D61BB1B2B49D034004C88C9 /* PasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		0D61BB1D2B49D053004C88C9 /* PasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		0DC198AA2B530CF3005EA7BF /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		0DC198AB2B530CF3005EA7BF /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		0DC198AD2B567F53005EA7BF /* AdminViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminViewController.h; sourceTree = "<group>"; };
+		0DC198AE2B567F53005EA7BF /* AdminViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdminViewController.m; sourceTree = "<group>"; };
+		0DC198B12B59AB76005EA7BF /* FridaGadget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = FridaGadget.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D61BAEE2B45E9C8004C88C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC198B42B59ABB1005EA7BF /* FridaGadget.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D61BAE82B45E9C8004C88C9 = {
+			isa = PBXGroup;
+			children = (
+				0D61BAF32B45E9C8004C88C9 /* InsecurePasswordStore */,
+				0D61BAF22B45E9C8004C88C9 /* Products */,
+				0DC198B32B59ABA7005EA7BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D61BAF22B45E9C8004C88C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D61BAF12B45E9C8004C88C9 /* InsecurePasswordStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D61BAF32B45E9C8004C88C9 /* InsecurePasswordStore */ = {
+			isa = PBXGroup;
+			children = (
+				0D61BB172B49CCEF004C88C9 /* Model.xcdatamodeld */,
+				0D61BB162B49CCEF004C88C9 /* Credential.h */,
+				0D61BB152B49CCEF004C88C9 /* Credential.m */,
+				0D61BAF42B45E9C8004C88C9 /* AppDelegate.h */,
+				0D61BAF52B45E9C8004C88C9 /* AppDelegate.m */,
+				0D61BAF72B45E9C8004C88C9 /* SceneDelegate.h */,
+				0D61BAF82B45E9C8004C88C9 /* SceneDelegate.m */,
+				0D61BB0D2B45EAA4004C88C9 /* logo68.png */,
+				0D61BAFD2B45E9C8004C88C9 /* Main.storyboard */,
+				0D61BB0F2B45EB9A004C88C9 /* LoginViewController.h */,
+				0D61BB102B45EB9A004C88C9 /* LoginViewController.m */,
+				0D61BB002B45E9CA004C88C9 /* Assets.xcassets */,
+				0D61BB022B45E9CA004C88C9 /* LaunchScreen.storyboard */,
+				0D61BB132B45F419004C88C9 /* MainViewController.h */,
+				0D61BB122B45F419004C88C9 /* MainViewController.m */,
+				0D61BB1B2B49D034004C88C9 /* PasswordViewController.m */,
+				0D61BB1D2B49D053004C88C9 /* PasswordViewController.h */,
+				0DC198AD2B567F53005EA7BF /* AdminViewController.h */,
+				0DC198AE2B567F53005EA7BF /* AdminViewController.m */,
+				0D61BB052B45E9CA004C88C9 /* Info.plist */,
+				0D61BB062B45E9CA004C88C9 /* main.m */,
+				0DC198AB2B530CF3005EA7BF /* Utils.h */,
+				0DC198AA2B530CF3005EA7BF /* Utils.m */,
+			);
+			path = InsecurePasswordStore;
+			sourceTree = "<group>";
+		};
+		0DC198B32B59ABA7005EA7BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DC198B12B59AB76005EA7BF /* FridaGadget.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D61BAF02B45E9C8004C88C9 /* InsecurePasswordStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D61BB0A2B45E9CA004C88C9 /* Build configuration list for PBXNativeTarget "InsecurePasswordStore" */;
+			buildPhases = (
+				0D61BAED2B45E9C8004C88C9 /* Sources */,
+				0D61BAEE2B45E9C8004C88C9 /* Frameworks */,
+				0D61BAEF2B45E9C8004C88C9 /* Resources */,
+				0DC198B62B59AC50005EA7BF /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsecurePasswordStore;
+			productName = InsecurePasswordStore;
+			productReference = 0D61BAF12B45E9C8004C88C9 /* InsecurePasswordStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D61BAE92B45E9C8004C88C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					0D61BAF02B45E9C8004C88C9 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D61BAEC2B45E9C8004C88C9 /* Build configuration list for PBXProject "InsecurePasswordStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D61BAE82B45E9C8004C88C9;
+			productRefGroup = 0D61BAF22B45E9C8004C88C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D61BAF02B45E9C8004C88C9 /* InsecurePasswordStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D61BAEF2B45E9C8004C88C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D61BB0E2B45EAA4004C88C9 /* logo68.png in Resources */,
+				0D61BB042B45E9CA004C88C9 /* LaunchScreen.storyboard in Resources */,
+				0D61BB012B45E9CA004C88C9 /* Assets.xcassets in Resources */,
+				0D61BAFF2B45E9C8004C88C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D61BAED2B45E9C8004C88C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC198AC2B530CF3005EA7BF /* Utils.m in Sources */,
+				0D61BB192B49CCEF004C88C9 /* Credential.m in Sources */,
+				0DC198AF2B567F53005EA7BF /* AdminViewController.m in Sources */,
+				0D61BB142B45F419004C88C9 /* MainViewController.m in Sources */,
+				0D61BB1A2B49CCEF004C88C9 /* Model.xcdatamodeld in Sources */,
+				0D61BAF62B45E9C8004C88C9 /* AppDelegate.m in Sources */,
+				0D61BB072B45E9CA004C88C9 /* main.m in Sources */,
+				0D61BB1C2B49D034004C88C9 /* PasswordViewController.m in Sources */,
+				0D61BAF92B45E9C8004C88C9 /* SceneDelegate.m in Sources */,
+				0D61BB112B45EB9A004C88C9 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D61BAFD2B45E9C8004C88C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D61BAFE2B45E9C8004C88C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D61BB022B45E9CA004C88C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D61BB032B45E9CA004C88C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D61BB082B45E9CA004C88C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D61BB092B45E9CA004C88C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D61BB0B2B45E9CA004C88C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PZ7VLN92L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InsecurePasswordStore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InsecurePasswordStore/Frameworks",
+					"$(PROJECT_DIR)/InsecurePasswordStore",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.murphy.ios.InsecurePasswordStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D61BB0C2B45E9CA004C88C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PZ7VLN92L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InsecurePasswordStore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InsecurePasswordStore/Frameworks",
+					"$(PROJECT_DIR)/InsecurePasswordStore",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.murphy.ios.InsecurePasswordStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D61BAEC2B45E9C8004C88C9 /* Build configuration list for PBXProject "InsecurePasswordStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D61BB082B45E9CA004C88C9 /* Debug */,
+				0D61BB092B45E9CA004C88C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D61BB0A2B45E9CA004C88C9 /* Build configuration list for PBXNativeTarget "InsecurePasswordStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D61BB0B2B45E9CA004C88C9 /* Debug */,
+				0D61BB0C2B45E9CA004C88C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D61BB172B49CCEF004C88C9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D61BB182B49CCEF004C88C9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 0D61BB182B49CCEF004C88C9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0D61BAE92B45E9C8004C88C9 /* Project object */;
+}

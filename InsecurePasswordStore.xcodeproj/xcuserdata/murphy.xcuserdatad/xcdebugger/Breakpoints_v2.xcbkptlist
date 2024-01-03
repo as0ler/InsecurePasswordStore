@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "47998862-5AF9-44C3-8BBB-0C5DCADF43FA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6754BC8B-6D07-4BB7-8F9C-1A042AF94DBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/PasswordViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6754BC8B-6D07-4BB7-8F9C-1A042AF94DBF - 7cbc5f7d6913426b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PasswordViewController viewDidLoad]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/PasswordViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "6754BC8B-6D07-4BB7-8F9C-1A042AF94DBF - 7cbc5f7d6913426b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PasswordViewController viewDidLoad]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/PasswordViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "388">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F582B2A3-B8F1-40FE-A51B-286A518506D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F582B2A3-B8F1-40FE-A51B-286A518506D4 - 41ec256f288277f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController isUserValidForUsername:withPassword:]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "533">
+               </Location>
+               <Location
+                  uuid = "F582B2A3-B8F1-40FE-A51B-286A518506D4 - 41ec256f288277f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController isUserValidForUsername:withPassword:]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "550">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B022957-9167-49CC-95AE-6DF3FBEE2BF8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16B5FD69-8B1F-4AFC-A7C9-0A3DA6FF9234"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "16B5FD69-8B1F-4AFC-A7C9-0A3DA6FF9234 - 41ec256f28827205"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController isUserValidForUsername:withPassword:]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "16B5FD69-8B1F-4AFC-A7C9-0A3DA6FF9234 - 41ec256f28827205"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController isUserValidForUsername:withPassword:]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6BFE6F1-A74B-420B-A512-1E8C1882E489"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2D5DB75-0690-4B4B-B4A9-DA8885896DBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04522D3E-8FAC-41B4-95F7-9CDE68AF1011"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04522D3E-8FAC-41B4-95F7-9CDE68AF1011 - 36078c575676dce3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController isValidAdminForUsername:]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "252"
+                  endingLineNumber = "252"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "04522D3E-8FAC-41B4-95F7-9CDE68AF1011 - 41ec256f28828b0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController isUserValidForUsername:withPassword:]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "251"
+                  endingLineNumber = "251"
+                  offsetFromSymbolStart = "1214">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BAE9749-129E-47C0-A994-B9238F906D59"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "841C3A82-6387-4429-B677-A4B9AB9C8951"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEAE4C7C-A3BB-4F97-8708-0E06AC3639CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/LoginViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "-isUserValidForUsername:withPassword:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BEAE4C7C-A3BB-4F97-8708-0E06AC3639CC - bdd30d5db3c5a389"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController doLogin]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "267">
+               </Location>
+               <Location
+                  uuid = "BEAE4C7C-A3BB-4F97-8708-0E06AC3639CC - bdd30d5db3c5a389"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController doLogin]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/LoginViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "273">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BE75BE8-3D2F-4E28-8ADF-A90CF594B496"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/MainViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "-isUserAdmin"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0BE75BE8-3D2F-4E28-8ADF-A90CF594B496 - 924b4f76fca4f426"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MainViewController isUserAdmin]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/MainViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "0BE75BE8-3D2F-4E28-8ADF-A90CF594B496 - 924b4f76fca4f3f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MainViewController isUserAdmin]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/MainViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "78">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6BDC5FE-6B9D-45EE-9F8A-77C8640D98ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/Utils.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "+getConfigKey:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A74683E4-10EF-4A74-B421-D576F73A6E75"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/Utils.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "+getConfigKey:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4408F53-F785-477F-A8CF-27207A52BB95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/Utils.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "+getConfigKey:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4408F53-F785-477F-A8CF-27207A52BB95 - 5e62c45ef5d31b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[Utils getConfigKey:]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/Utils.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  uuid = "C4408F53-F785-477F-A8CF-27207A52BB95 - 5e62c45ef5d31b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[Utils getConfigKey:]"
+                  moduleName = "InsecurePasswordStore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/murphy/Documents/Master/iOS/src/InsecurePasswordStore/InsecurePasswordStore/Utils.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "235">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "639B8088-AB01-4D99-B1FB-C9A8076603F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/MainViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-AdminBtnTapped:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95AA70D9-9717-4C5F-BD54-C316FC9B407F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InsecurePasswordStore/MainViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "-AdminBtnTapped:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
